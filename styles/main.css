@@ -1,0 +1,84 @@
+.header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sunset-fonts {
+  width: 1000px;
+  height: 900px;
+  background-image: url(/pictures/image1.jpg);
+  background-position-x: center;
+  background-position-y: -800px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.sunset-fonts .sunset-one {
+  width: 60%;
+  height: 170px;
+  background-image: url(/pictures/image2.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.sunset-fonts .sunset-two {
+  width: 60%;
+  height: 170px;
+  background-image: url(/pictures/image3.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+.sunset-fonts button {
+  width: 200px;
+  height: 50px;
+  background-image: url(/pictures/image-sun.jpg);
+  background-size: 100% 100%;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: fangsong;
+  color: black;
+  border: 3px solid black;
+  border-radius: 15px;
+  position: absolute;
+  right: 50px;
+  bottom: 25px;
+}
+
+.sunset-fonts button:hover {
+  cursor: pointer;
+  border-color: #ac64ed;
+  color: #ac64ed;
+}
+
+@media screen and (max-width: 800px) {
+  .sunset-fonts .sunset-one, .sunset-fonts .sunset-two {
+    width: 84%;
+  }
+  .sunset-fonts button {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sunset-fonts .sunset-one, .sunset-fonts .sunset-two {
+    width: 100%;
+    position: static;
+  }
+  .sunset-fonts button {
+    width: 100%;
+    bottom: 0px;
+    right: initial;
+  }
+}
+/*# sourceMappingURL=main.css.map */
