@@ -51,10 +51,11 @@
         bottom: 25px;
     }
 
-    button:hover {
+    .sunset-one:hover, .sunset-two:hover, button:hover {
         cursor: pointer;
-        border-color: #ac64ed;
+        border: 3px solid #ac64ed;
         color: #ac64ed;        
+        box-sizing: border-box;
     }
 
      @media screen and (max-width: 800px) {

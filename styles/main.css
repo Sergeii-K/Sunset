@@ -55,10 +55,12 @@
   bottom: 25px;
 }
 
-.sunset-fonts button:hover {
+.sunset-fonts .sunset-one:hover, .sunset-fonts .sunset-two:hover, .sunset-fonts button:hover {
   cursor: pointer;
-  border-color: #ac64ed;
+  border: 3px solid #ac64ed;
   color: #ac64ed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media screen and (max-width: 800px) {
